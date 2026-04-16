@@ -1,5 +1,7 @@
 from pet import Pet
 
 my_pet = Pet("Buddy")
-print(f"Name: {my_pet.name}")
-print(f"Energy: {my_pet.energy_level}")
+print(f"Before feeding: {my_pet.energy_level}")
+
+my_pet.feed_pet()
+print(f"After feeding: {my_pet.energy_level}")
